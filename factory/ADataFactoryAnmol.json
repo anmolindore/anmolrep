@@ -1,0 +1,9 @@
+{
+	"name": "ADataFactoryAnmol",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1ff9cef-eee5-4a4d-9126-a0d3555b9a9e",
+		"tenantId": "a08cc2f5-3a3b-485e-ac1d-0034dad8aa5d"
+	}
+}
