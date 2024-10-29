@@ -1,0 +1,41 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.csv",
+				"folderPath": "input",
+				"container": "adfdemocontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "emp_ID",
+				"type": "String"
+			},
+			{
+				"name": "emp_NAME",
+				"type": "String"
+			},
+			{
+				"name": "DEPT_NAME",
+				"type": "String"
+			},
+			{
+				"name": "SALARY",
+				"type": "String"
+			}
+		]
+	}
+}
